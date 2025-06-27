@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container-navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    margin-right: auto;
+}
+
+#imglogo {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    justify-content: flex-start;
+    margin-right: auto;
+    z-index: 1000;
+}
+
+.judulbesar {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    position: relative;
+}
+
+.container-body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.container-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teks-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+}
+
+.container-teks-profile {
+    padding-top: 34px;
+    text-align: center;
+}
+
+.teks-deskripsi {
+    display: flex;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.container-brandidentity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.teks-brandidentity {
+
+}
+
+.img-brandidentity {
+    width: 200px;
+    height: auto;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.container-ourmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.teks-ourmenu {
+
+}
+
+.img-ourmenu {
+    width: 200px;
+    height: auto;
+}
+
+.containerimgmenu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.container-ayamgeprek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-geprek {
+    width: 250px;
+    height: auto;
+}
+
+.containerimgmatah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-sambalmatah {
+    width: 250px;
+    height: auto;
+}
+
+.containertempe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-mendoan {
+    width: 250px;
+    height: auto;
+}
+
+
+.footer {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
